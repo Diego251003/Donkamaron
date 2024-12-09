@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos</title>
+    <link rel="icon" href="static/imagenes/logoo.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="loader"><p>Cargando...</p></div>
+    <div class="containerS">
+      <div class="container-nav">
+        <div class="navbas">
+          <nav class="navbar fixed-top navbss">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="static/imagenes/logoo.jpeg" width="75px" />Don
+                Kamaron</a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="index.html"
+                        >Inicio</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="meseros.html">Meseros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contactanos.html">Contáctanos</a>
+                  </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="main-content">
+        <div>
+          <center>
+            <h1 style="color: white">Los espacios disponibles para todos sus eventos</h1>
+            <div
+              id="carouselExampleControlsNoTouching"
+              class="carousel slide"
+              data-bs-touch="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" style="color: black">
+                  <img
+                    src="static/imagenes/restaurant.webp"
+                    class="d-block"
+                    width="550px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Terraza</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="static/imagenes/dentro.avif"
+                    class="d-block"
+                    width="550px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Comedor casual</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="static/imagenes/centro.jpg"
+                    class="d-block"
+                    width="700px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Comedor familiar</h5>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </center>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="informacion-adicional">
+          <div class="redes-sociales">
+            <a
+              href="https://www.facebook.com/reel/1055210549729186"
+              target="_blank"
+              ><img src="static/imagenes/facebook.png" width="50px"
+            /></a>
+            <a
+              href="https://x.com/PesqueriaEc/status/1865053639636611248"
+              target="_blank"
+              ><img src="static/imagenes/X.png" width="50px"
+            /></a>
+            <a
+              href="https://www.instagram.com/p/DDIW_e1Kxv0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              target="_blank"
+              ><img src="static/imagenes/instagram.png" width="50px"
+            /></a>
+          </div>
+          <div class="contacto">
+            <p>Números de Teléfono:</p>
+            <p>55 5624 2000</p>
+            <p>Dirección:</p>
+            <p>
+              Av. Té 950, Granjas México, Iztacalco, 08400 Ciudad de México,
+              CDMX
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

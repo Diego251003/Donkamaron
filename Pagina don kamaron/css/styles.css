@@ -1,0 +1,186 @@
+.navbss {
+  background-color: #ffeded;
+}
+
+.testimonio {
+  background-color: #e0e0d1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+.imagentestimonio {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.testimoniotexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nombre {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.informacion {
+  margin: 0;
+}
+
+.fondo {
+  background-color: #231914;
+  padding: 20px 0;
+}
+
+.informacion-adicional {
+  padding: 20px;
+  text-align: center;
+}
+
+.redes-sociales a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.redes-sociales a:hover {
+  text-decoration: underline;
+}
+
+.contacto p {
+  margin: 5px 0;
+}
+
+.containerS {
+  position: relative;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-areas:
+    'navbar navbar'
+    'content content'
+    'footer footer';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 200px 1fr;
+  height: auto;
+  min-height: 100hv;
+  padding: 0%;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar {
+  grid-area: navbar;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container-nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  z-index: 1000;
+}
+
+.main-content {
+  grid-area: content;
+  padding: 70px;
+  background-color: #231914;
+  padding-bottom: 4rem;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #ffeded;
+  color: black;
+  padding: 0 20px;
+}
+
+
+.page-load{
+  background-color: #C4ABA8;
+
+}
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: url('/restaurant-cris/static/imagenes/logoo.jpeg') 50% 50% no-repeat #C4ABA8;
+}
+.loader p {
+  margin-top: 300px;
+  font-size: 18px;
+}
+
+.video{
+  position: relative;
+  float: right;
+}
+
+.names{
+  position: relative;
+  float: left;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #fafafa;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  animation: animate 3s linear infinite;
+}
+
+.nos{
+  position: relative;
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+
+  text-align: justify;
+  text-align-last: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  animation: animate 3s linear infinite;
+}
+
+.description{
+    position: relative;
+    max-width: 400px; /* Limita el ancho máximo a 400px (ajústalo según el espacio deseado) */
+    margin: 0 auto; /* Centra horizontalmente el texto */
+    padding: 10px; /* Añade espacio interno */
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: justify; /* Justifica el texto */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Ajusta el espaciado entre letras */
+    line-height: 1.5; /* Mejora la legibilidad del texto */
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+      crossorigin="anonymous" 
+    />
+    <link rel="icon" href="static/imagenes/logoo.ico" type="image/x-icon" />
+</head>
+<body>
+    <div class="loader"><p>Cargando...</p></div>
+    <div class="containerS">
+        <div class="container-nav">
+            <div class="navbas">
+                <nav class="navbar fixed-top navbss">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="static/imagenes/logoo.jpeg" width="70px" /> Don Kamaron
+                        </a>
+                        <button 
+                          class="navbar-toggler" 
+                          type="button" 
+                          data-bs-toggle="offcanvas" 
+                          data-bs-target="#offcanvasNavbar" 
+                          aria-controls="offcanvasNavbar" 
+                          aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div 
+                          class="offcanvas offcanvas-end" 
+                          tabindex="-1" 
+                          id="offcanvasNavbar" 
+                          aria-labelledby="offcanvasNavbarLabel"
+                        >
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="productos.html">Productos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="eventos.html">Eventos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="meseros.html">Meseros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contactanos.html">Contáctanos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="fondo">
+                <div class="testimonio">
+                    <div class="contactanos">
+                        <h1 class="text-center mb-4">Formulario de Contacto</h1>
+                        <form action="insertar.php" method="POST" class="p-4 bg-light rounded shadow-sm">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre:</label>
+                                <input 
+                                  type="text" 
+                                  id="nombre" 
+                                  name="nombre" 
+                                  class="form-control" 
+                                  placeholder="Tu nombre completo" 
+                                  required 
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo:</label>
+                                <input 
+                                  type="email" 
+                                  id="correo" 
+                                  name="correo" 
+                                  class="form-control" 
+                                  placeholder="Tu correo electrónico" 
+                                  required 
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Teléfono:</label>
+                                <input 
+                                  type="tel" 
+                                  id="telefono" 
+                                  name="telefono" 
+                                  class="form-control" 
+                                  placeholder="Tu número de teléfono" 
+                                  maxlength="10" 
+                                  required 
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje:</label>
+                                <textarea 
+                                  id="mensaje" 
+                                  name="mensaje" 
+                                  class="form-control" 
+                                  rows="5" 
+                                  placeholder="Escribe tu mensaje" 
+                                  required
+                                ></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+      <div class="informacion-adicional">
+        <div class="redes-sociales">
+          <a
+            href="https://www.facebook.com/reel/1055210549729186"
+            target="_blank"
+            ><img src="static/imagenes/facebook.png" width="50px"
+          /></a>
+          <a
+            href="https://x.com/PesqueriaEc/status/1865053639636611248"
+            target="_blank"
+            ><img src="static/imagenes/X.png" width="50px"
+          /></a>
+          <a
+            href="https://www.instagram.com/p/DDIW_e1Kxv0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            target="_blank"
+            ><img src="static/imagenes/instagram.png" width="50px"
+          /></a>
+        </div>
+        <div class="contacto">
+          <p>Números de Teléfono:</p>
+          <p>55 5624 2000</p>
+          <p>Dirección:</p>
+          <p>
+            Av. Té 950, Granjas México, Iztacalco, 08400 Ciudad de México,
+            CDMX
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
